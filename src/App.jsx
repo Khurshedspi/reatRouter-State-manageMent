@@ -1,5 +1,7 @@
 
 import './App.css'
+// import DaisyNav from './components/DaisyNav/DaisyNav'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
 
@@ -7,7 +9,8 @@ function App() {
   return (
     <>
      
-    <h3>React Router And State Management</h3>
+    {/* <DaisyNav/> */}
+    <Navbar/>
      
     </>
   )
