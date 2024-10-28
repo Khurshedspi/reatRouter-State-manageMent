@@ -3,15 +3,19 @@ import './App.css'
 // import DaisyNav from './components/DaisyNav/DaisyNav'
 import Navbar from './components/Navbar/Navbar'
 
+import PriceOptions from './components/PriceOptions/PriceOptions'
+
 function App() {
 
 
   return (
     <>
      
-    {/* <DaisyNav/> */}
+   
     <Navbar/>
-     
+    {/* <DaisyNav/> */}
+    <h2>React Router</h2>
+    <PriceOptions/>
     </>
   )
 }
