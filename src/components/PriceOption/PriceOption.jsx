@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import Feature from "../Feature/Feature";
+
 const PriceOption = ({option}) => {
     const {name, price, features} = option;
     return (
@@ -19,6 +20,7 @@ const PriceOption = ({option}) => {
            }
         </div>
         <button className="mt-12 bg-green-600 w-full py-2 font-bold rounded-lg hover:bg-green-900">Buy Now</button>
+    
         </div>
     );
 };

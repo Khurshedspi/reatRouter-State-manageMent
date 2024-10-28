@@ -1,5 +1,6 @@
 
 import './App.css'
+import LineChart from './components/LineChart/LineChart'
 // import DaisyNav from './components/DaisyNav/DaisyNav'
 import Navbar from './components/Navbar/Navbar'
 
@@ -16,6 +17,7 @@ function App() {
     {/* <DaisyNav/> */}
     <h2>React Router</h2>
     <PriceOptions/>
+    <LineChart/>
     </>
   )
 }
